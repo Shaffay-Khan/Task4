@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Victoria's Journal</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    #container {
+      width: 800px;
+      margin: 30px auto;
+      background-color: #d9f0f2;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #2c8a9e;
+      margin-bottom: 0;
+      font-weight: bold;
+    }
+
+    h3 {
+      color: #6db5b9;
+      margin-top: 0;
+      font-style: italic;
+    }
+
+    .box {
+      background-color: #ffffff;
+      border: 1px solid #aac;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 10px;
+    }
+
+    #friends {
+      float: left;
+      width: 200px;
+      background-color: #b8e3e3;
+      margin-right: 20px;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    #friends h2 {
+      text-align: center;
+      color: #206b75;
+    }
+
+    #friends ul {
+      list-style-type: none;
+      padding-left: 10px;
+    }
+
+    #friends li {
+      margin: 5px 0;
+    }
+
+    #friends a {
+      text-decoration: none;
+      color: #206b75;
+    }
+
+    #entries {
+      overflow: hidden;
+    }
+
+    .entry img {
+      float: right;
+      width: 100px;
+      height: auto;
+      border-radius: 5px;
+      margin-left: 15px;
+    }
+
+    .entry h2 {
+      margin-top: 0;
+      color: #2c8a9e;
+    }
+
+    .date {
+      font-weight: bold;
+      color: #2c8a9e;
+    }
+
+    .entry p {
+      line-height: 1.4em;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div id="container" >
+    <h1 style = "text-align:right;">Victoria's Journal</h1>
+    <h3 style = "text-align:right;">So fresh and so clean</h3>
+
+    <div id="friends" class="box">
+      <h2>Friends</h2>
+      <ul>
+        <li><a href="#">Jill Bullens</a></li>
+        <li><a href="#">Meg Will</a></li>
+        <li><a href="#">Claire De Lune</a></li>
+      </ul>
+    </div>
+
+    <div id="entries">
+      <div class="entry box">
+        <h2><span class="date">04/09/08:</span> Spatulas</h2>
+        <p>Yesterday, I went to the store and got some much-needed spatulas! (What better way to say I love myself than to buy myself a spatula?)</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Spatula.jpg" alt="Spatula">
+      </div>
+
+      <div class="entry box">
+        <h2><span class="date">04/08/08:</span> Cookie Cupcakes</h2>
+        <p>My favorite cartoon character is Cookie, and my favorite dessert is cupcakes. So Cookie Cupcakes are best of both worlds! Did you know? Cookie characters once said, 'Sometimes me think what is love, and then me think love is what cookie is for. Give me the last cookie for YOU.' I wonder if the same applies for cupcakes!</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Cupcakes.jpg" alt="Cupcakes">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
