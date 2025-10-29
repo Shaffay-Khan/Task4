@@ -1,0 +1,142 @@
+<html>
+<head>
+	<title> HTML ICT LAB TASK 
+	</title>
+</head>
+<body>
+
+<h1 style = "text-align:center;">LAB TASK 04:</h1>
+
+
+
+    <div style="background-color: lightgray; border: 3px solid #000;width: 600px; margin: 20px auto; padding: 20px;">
+    <h1 style="color: red; text-align: center; font-size: 24px;">Continental Hotel Reservation Form</h1>
+    <form>
+        <table style="width: 100%;">
+            <tr>
+                <td style="border: 2px solid black; padding: 12px; background-color: lightblue;  width: 35%; text-align: right; padding-right: 15px;"><b>Name</b></td>
+                <td style="border: 2px solid black; padding: 12px;">
+                    <input type="text" placeholder="Enter your name" style="padding: 5px; border: 1px solid #666; width: 90%;">
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black; padding: 12px; background-color: lightblue; text-align: right; padding-right: 15px;"><b>eMail</b></td>
+                <td style="border: 2px solid black; padding: 12px;">
+                    <input type="email" value="info@continental.pk" style="padding: 5px; border: 1px solid #666; width: 90%;">
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black; padding: 12px; background-color: lightblue; text-align: right; padding-right: 15px;"><b>Mobile No</b></td>
+                <td style="border: 2px solid black; padding: 12px;">
+                    <input type="text" placeholder="Enter your cell number" style="padding: 5px; border: 1px solid #666; width: 90%;">
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black; padding: 12px; background-color: lightblue; text-align: right; padding-right: 15px;"><b>Arrival Time</b></td>
+                <td style="border: 2px solid black; padding: 12px;">
+                    <input type="text" placeholder="Enter your arrival time" style="padding: 5px; border: 1px solid #666; width: 90%;">
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black; padding: 12px; background-color: lightblue; text-align: right; padding-right: 15px;"><b>Departure</b></td>
+                <td style="border: 2px solid black; padding: 12px;">
+                    <input type="text" style="padding: 5px; border: 1px solid #666; width: 90%;">
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black; padding: 12px; background-color: lightblue; text-align: right; padding-right: 15px;"><b>Room Type</b></td>
+                <td style="border: 2px solid black; padding: 12px;">
+                    <div style="display: flex; flex-direction: column; gap: 8px;">
+                        <div style="display: flex; align-items: center;">
+                            <input type="radio" name="roomType" id="single" style="margin-right: 5px;">
+                            <label for="single">Single</label>
+                            <input type="radio" name="roomType" id="double" style="margin-left: 15px; margin-right: 5px;">
+                            <label for="double">Double</label>
+                        </div>
+                        <div style="display: flex; align-items: center;">
+                            <input type="radio" name="roomType" id="presidential" style="margin-right: 5px;">
+                            <label for="presidential">Presidential Suite</label>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black; padding: 12px; background-color: lightblue; text-align: right; padding-right: 15px;"><b>Preferences</b></td>
+                <td style="border: 2px solid black; padding: 12px;">
+                    <div style="display: flex; flex-direction: column; gap: 8px;">
+                        <div>
+                            <input type="checkbox" id="nonSmoking" style="margin-right: 5px;">
+                            <label for="nonSmoking">Non-Smoking</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="internet" style="margin-right: 5px;">
+                            <label for="internet">Internet</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="firmMattress" style="margin-right: 5px;">
+                            <label for="firmMattress">Firm Mattress</label>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black; padding: 12px; background-color: lightblue; text-align: right; padding-right: 15px;"><b>Mode of Payment</b></td>
+                <td style="border: 2px solid black; padding: 12px;">
+                    <div style="display: flex; flex-direction: column; gap: 8px;">
+                        <div>
+                            <input type="checkbox" id="cash" style="margin-right: 5px;">
+                            <label for="cash">Cash</label>
+                            <input type="checkbox" id="check" style="margin-left: 15px; margin-right: 5px;">
+                            <label for="check">Check</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="creditCard" style="margin-right: 5px;">
+                            <label for="creditCard">Credit Card</label>
+                            <select style="padding: 5px; border: 1px solid #666; width: auto; margin-left: 10px;">
+                                <option>Select Card</option>
+                                <option>Visa</option>
+                                <option>Mastercard</option>
+                                <option>American Express</option>
+                            </select>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="border: 2px solid black; padding: 15px; text-align: center;">
+                    <button type="submit" style="padding: 8px 30px; background-color: lightblue; border: 2px solid #666; cursor: pointer;  font-size: 14px;"><b>Send Data</b></button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+<style>
+    .smalltxt {
+      font-size: 17px;    
+    }
+</style>
+
+<div style="background-color: lightcyan; width: 600px ; margin: 20px auto; padding: 10px;">
+<div style="background-color: white;width: 400px ; margin: 10px auto; padding: 10px;"> 
+<div style="background-color: cyan;width: 400px ; ">
+<p style= " font-size: 25px; text-align:right; color:darkcyan;">
+Victoria's Journal
+<br>
+<span class="smalltxt">So fresh and so clean</span>
+</p>
+
+</div>
+
+<div style="background-color: lightgreen;   border: 3px solid green;width: 100px ;text-align:center; ">
+<p style = " font-size: 25px; color:green;">
+Friends
+<br>
+<span class="smalltxt">So fresh and so clean</span>
+</p>
+</div>
+</div>
+</div>
+
+<div></div>
+</body>
+</html>
